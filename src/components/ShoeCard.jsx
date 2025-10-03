@@ -10,7 +10,7 @@ const ShoeCard = ({imgURL,changeBigShoeImage,bigShoeImg}) => {
     <div className={`border-2 rounded-xl
       overflow-hidden
     ${bigShoeImg === imgURL.bigShoe
-    ?'border-red-500'
+    ? 'border-red-500'
     :'border-transparent'
       }cursor-pointer max-sm:flex-1
     `}
